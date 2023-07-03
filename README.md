@@ -13,8 +13,6 @@ The following tools were used in this project:
 
 - [Express](https://expressjs.com/fr/)
 - [Node.js](https://nodejs.org/en/)
-- [React](https://fr.reactjs.org/)
-- [MongoDB](https://www.mongodb.com/)
 
 ## :white_check_mark: Requirements
 
@@ -23,20 +21,23 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 ## Clone the project
 
 ```
-$ git clone https://github.com/MohammedAymane/Api-Design-news-Api-
+$ git clone https://github.com/MohammedAymane/Product-Hunt-Backend
 ```
 
 ## Access
 
 ```
-$ cd tp-api-design
+$ cd Product-Hunt-Backend
 ```
 
 ## Setup the app
 
 ```
-$ npm install;cd Client;npm install;cd ..
+$ npm install;
 ```
+And create .env file that contains : 
+API_KEY=YOUR_KEY
+HOST=https://api.producthunt.com/v2/api/graphql
 
 #### Run the app
 
@@ -44,4 +45,4 @@ $ npm install;cd Client;npm install;cd ..
 $ npm start
 ```
 
-#### The app will initialize at <http://localhost:20699>
+#### The app will initialize at <http://localhost:9000>
