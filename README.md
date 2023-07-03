@@ -33,7 +33,7 @@ $ cd Product-Hunt-Backend
 ## Setup the app
 
 ```
-$ npm install;
+$ npm install
 ```
 And create .env file that contains : 
 API_KEY=YOUR_KEY
