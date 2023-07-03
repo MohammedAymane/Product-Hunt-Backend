@@ -1,17 +1,17 @@
 <div align="center" id="top"> 
 </div>
 
-<h1 align="center">TP Api Design</h1>
+<h1 align="center">Product Hunt</h1>
 
 # :dart: About
 
-Small CRUD project for news management
+Project to display Product from Product Hunt
 
 ## :rocket: Technologies
 
 The following tools were used in this project:
 
-- [Express](https://expressjs.com/fr/)
+- [Angular](https://angular.io/)
 - [Node.js](https://nodejs.org/en/)
 
 ## :white_check_mark: Requirements
@@ -21,13 +21,13 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 ## Clone the project
 
 ```
-$ git clone https://github.com/MohammedAymane/Product-Hunt-Backend
+$ git clone https://github.com/MohammedAymane/Product-Hunt-Frontend
 ```
 
 ## Access
 
 ```
-$ cd Product-Hunt-Backend
+$ cd Product-Hunt-Frontend
 ```
 
 ## Setup the app
@@ -35,9 +35,6 @@ $ cd Product-Hunt-Backend
 ```
 $ npm install
 ```
-And create .env file that contains : 
-API_KEY=YOUR_KEY
-HOST=https://api.producthunt.com/v2/api/graphql
 
 #### Run the app
 
@@ -45,4 +42,4 @@ HOST=https://api.producthunt.com/v2/api/graphql
 $ npm start
 ```
 
-#### The app will initialize at <http://localhost:9000>
+#### The app will initialize at <http://localhost:4200>
