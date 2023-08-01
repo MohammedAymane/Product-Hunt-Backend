@@ -1,7 +1,6 @@
 const express = require("express");
 const router = express.Router();
 const axios = require("axios");
-const e = require("express");
 require("dotenv").config();
 
 const url = process.env.HOST;
