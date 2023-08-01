@@ -45,4 +45,4 @@ HOST=https://api.producthunt.com/v2/api/graphql
 $ npm start
 ```
 
-#### The app will initialize at <http://localhost:4200>
+#### The app will initialize at <http://localhost:9000>
