@@ -67,7 +67,6 @@ router.get("/", async (req, res) => {
  */
 router.get("/date/:date", async (req, res) => {
   const date = req.params.date;
-  console.log(date);
   const query = `{
     posts{
       edges {
